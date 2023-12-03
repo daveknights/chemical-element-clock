@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chemical Element Clock</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Chemical element clock</h1>
+    </header>
+    <main>
+        <div class="elements">
+            <div class="hours element">
+                <span class="atomic-number"></span>
+                <span class="h symbol"></span>
+                <span class="name"></span>
+                <span class="group"></span>
+            </div>
+            <div class="minutes element">
+                <span class="atomic-number"></span>
+                <span class="m symbol"></span>
+                <span class="name"></span>
+                <span class="group"></span>
+            </div>
+            <div class="seconds element">
+                <span class="atomic-number"></span>
+                <span class="s symbol"></span>
+                <span class="name"></span>
+                <span class="group"></span>
+            </div>
+            <span class="date"></span>
+        </div>
+
+        <form class="options">
+            <label class="option" for="show-number">
+                <input type="checkbox" id="show-number">
+                Atomic number
+            </label>
+            <label class="option" for="show-group">
+                <input type="checkbox" id="show-group">
+                Chemical group
+            </label>
+            <label class="option" for="show-date">
+                <input type="checkbox" id="show-date">
+                Border colour
+            </label>
+        </form>
+    </main>
+
+    <script src="script.js" type="module"></script>
+</body>
+</html>
